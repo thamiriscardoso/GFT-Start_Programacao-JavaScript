@@ -42,21 +42,43 @@ if(idade >= 18){
 }else{
     alert("Menor de idade");
 }
-*/
-/*var count =0;
+
+var count =0;
 while(count <= 5){
     console.log(count);
     //count= count+1;
     count++;
 }
-*/
+
 
 /*var count;
 for(count =0; count <= 5; count++){
     alert(count);
 }
-*/
+
 var d = new Date();
 alert(d);
 alert(d.getMonth()+1);//Para apresentar o mês certo é necessário usar a função getMonth()+1
-alert(d.getUTCMinutes());
+alert(d.getUTCMinutes());*/
+
+function soma(n1,n2){
+    return n1+n2;
+}
+alert(soma(15,10));
+
+function setReplace(frase,nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+alert(setReplace("Vai Japão", "Japão","Brasil"));
+
+function validarIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar =true;
+    }else{
+        validar =false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade?")
+console.log(validarIdade(idade));
