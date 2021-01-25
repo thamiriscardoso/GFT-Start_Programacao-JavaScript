@@ -15,7 +15,7 @@ console.log(frase.toUpperCase());
 //console.log(frase.replace("Japão","Brasil"));
 console.log(n1*n2);*/
 
-var lista = ["maça", "pêra", "laranja"];
+/*var lista = ["maça", "pêra", "laranja"];
 lista.pop();
 lista.push("uva");
 console.log(lista);
@@ -33,4 +33,30 @@ alert(fruta.cor);
 
 var frutas = [{nome:"Maça", cor:"vermelha"}, {nome:"Uva", cor:"Roxa"}];//lista de dicionários
 console.log(frutas);
-console.log(frutas[1].nome);
+console.log(frutas[1].nome);*/
+
+/*var idade = prompt("Qual é a sua idade?"); // exibe uma pergunta ao usuário
+//var idade = 18;
+if(idade >= 18){
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+}
+*/
+/*var count =0;
+while(count <= 5){
+    console.log(count);
+    //count= count+1;
+    count++;
+}
+*/
+
+/*var count;
+for(count =0; count <= 5; count++){
+    alert(count);
+}
+*/
+var d = new Date();
+alert(d);
+alert(d.getMonth()+1);//Para apresentar o mês certo é necessário usar a função getMonth()+1
+alert(d.getUTCMinutes());
